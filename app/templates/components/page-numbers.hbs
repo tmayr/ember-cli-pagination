@@ -10,7 +10,7 @@
       </li>
     {{/if}}
 
-    {{#each item in pageItems}}
+    {{#each item as |pageItems|}}
       {{#if item.dots}}
         <li class="dots disabled">
           <span>...</span>
